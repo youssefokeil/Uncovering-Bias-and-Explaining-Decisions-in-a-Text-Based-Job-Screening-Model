@@ -1,6 +1,6 @@
 # BERT Hiring Model: Bias Detection and Mitigation
 
-This project investigates gender bias in a BERT-based hiring classification model and implements counterfactual data augmentation to reduce bias while maintaining model performance.
+This project investigates gender bias in a BERT-based https://github.com/youssefokeil/Uncovering-Bias-and-Explaining-Decisions-in-a-Text-Based-Job-Screening-Model/blob/main/images/beforeCDA-SHAP.pnghiring classification model and implements counterfactual data augmentation to reduce bias while maintaining model performance.
 
 ## Overview
 
@@ -24,6 +24,7 @@ The project demonstrates how representation imbalance in training data can lead 
 - **Findings**: 
   - Gender-indicative words showed minor but measurable influence on predictions
   - Gender correlation bias was lower than initially expected
+![SHAp](https://github.com/youssefokeil/Uncovering-Bias-and-Explaining-Decisions-in-a-Text-Based-Job-Screening-Model/blob/main/images/beforeCDA-SHAP.png)
 
 ### 4. Bias Evaluation Metrics
 The model was evaluated using standard fairness metrics:
