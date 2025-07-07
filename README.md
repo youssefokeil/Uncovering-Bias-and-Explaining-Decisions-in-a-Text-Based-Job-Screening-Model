@@ -42,12 +42,16 @@ The model was evaluated using standard fairness metrics:
 - **False Positive Rate Difference**: 8.01%
 - **Average Odds Difference**: 7.37%
 
+![BeforeCDA](https://github.com/youssefokeil/Uncovering-Bias-and-Explaining-Decisions-in-a-Text-Based-Job-Screening-Model/blob/main/images/beforeCDA.png)
+
 ### After Counterfactual Data Augmentation
 - **Demographic Parity Difference**: 4.6% (↓ 56.6% improvement)
 - **Equal Opportunity**: Male 80%, Female 78.7%
 - **True Positive Rate Difference**: 1.29% (↓ 80.8% improvement)
 - **False Positive Rate Difference**: 2.40% (↓ 70.0% improvement)
 - **Average Odds Difference**: 1.84% (↓ 75.0% improvement)
+
+![AfterCDA](https://github.com/youssefokeil/Uncovering-Bias-and-Explaining-Decisions-in-a-Text-Based-Job-Screening-Model/blob/main/images/afterCDA.png)
 
 ## Bias Mitigation Strategy
 
